@@ -1,0 +1,19 @@
+#Tata Cara
+#1. Data hasil scrapping (scrapper_data_baru.csv), Kode Scrapping (scrap_project_akhir_dicoding_bpml.ipynb), Pelatihan Model (final_bpml.ipynb)
+#2. Download file negative.csv dan positive.csv yang ada di folder sebagai library untuk membantu dalam proses pelabelan lexicon dalam file final_bpml.ipynb
+#3. Download library yang ada di requirements.txt
+#4. Jalankan filenya
+
+
+#scrap
+google-play-scrapper==1.2.7
+
+#model
+numpy
+pandas
+nltk
+scikit-learn
+Sastrawi==1.0.1
+imblearn.over_sampling
+tensorflow
+
